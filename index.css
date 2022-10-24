@@ -76,7 +76,7 @@ main {
   display: block;
 }
 
-main button {
+main a {
   background-color: var(--gray);
   border: 1px solid var(--orange);
   color: white;
@@ -86,6 +86,19 @@ main button {
   font-size: 4vw;
   border-radius: 1.75rem;
   margin: 0.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+main i {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+main button a:visited {
+  color: inherit;
 }
 
 .search {
